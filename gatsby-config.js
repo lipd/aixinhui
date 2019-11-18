@@ -1,19 +1,19 @@
 module.exports = {
   siteMetadata: {
     navbarLinks: [
-      { to: "/makeup", name: "机构介绍" },
-      { to: "/lifestyle", name: "“蝶音” @ 艺术科技指导" },
-      { to: "/blog", name: "音乐剧师资培训" },
-      { to: "/blog", name: "招生与夏令营" },
-      { to: "/blog", name: " 资源与服务" },
-      { to: "/blog", name: " 演出与活动" }
+      { to: "/aixinghui", name: "机构介绍" },
+      { to: "/dieyin", name: "“蝶音” @ 艺术科技指导" },
+      { to: "/drama", name: "音乐剧师资培训" },
+      { to: "/summer-camp", name: "招生与夏令营" },
+      { to: "/serve", name: " 资源与服务" },
+      { to: "/performance", name: " 演出与活动" }
     ],
     title: "爱星汇",
     description: "Tyra is a fast, feminine, and chic Gatsby.js theme.",
     siteUrl: "https://tyra-starter.netlify.com",
-    homepageHeader: "Welcome to Your New Blog",
+    homepageHeader: "爱星汇（北京）文化传媒有限公司",
     homepageAbout:
-      "Tyra is a modern, sleek and feminine Gatsby.js theme. Easily create a beautiful and fast blog and draw attention to your stellar content.",
+      "致力于综合类艺术教育（如音乐剧、乐团等教育培训、组织策划国际演出交流、影视音乐制作以及演艺经纪等开拓型项目，集教育、演出、制作、经纪于一体的综合传媒公司",
     mailChimpUrl: "https://mailchimp.com",
     mailChimpToken: "MAILCHIMP TOKEN HERE",
     youtube: "", // YOUR YOUTUBE PROFILE HERE
