@@ -76,9 +76,12 @@ export default () => (
             <span className="near-white sans-serif f5 tracked mb3 db">
               咨询与报名
             </span>
-            <Link to="/" className="near-white sans-serif f5 tracked pv1 db">
+            <a
+              href="https://www.aixinghui.top/static/745be9ec277fb3a51f0981e995b42b37/c108b/qrcode.jpg"
+              className="near-white sans-serif f5 tracked pv1 db"
+            >
               微信公众号
-            </Link>
+            </a>
             <Link to="/" className="near-white sans-serif f5 tracked pv1 db">
               联系方式
             </Link>

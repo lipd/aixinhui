@@ -28,7 +28,7 @@ export default props => {
               style={{ position: "sticky", top: "4rem", marginTop: "100px" }}
             >
               <a
-                href="/"
+                href="https://www.aixinghui.top/static/745be9ec277fb3a51f0981e995b42b37/c108b/qrcode.jpg"
                 className="w-100 h3 flex items-center justify-center b near-white"
               >
                 <AiFillWechat />
