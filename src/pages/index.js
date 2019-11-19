@@ -5,16 +5,15 @@ import Hero from "../homepage/components/hero";
 import Card from "../homepage/components/card";
 import About from "../homepage/components/about";
 import Bio from "../homepage/components/bio";
+import Carousel from "../homepage/components/carousel";
 import Seo from "../common/seo";
 
 export default ({ data }) => {
   let post = data.featuredPost.edges[0].node;
   return (
     <Layout>
-      <Seo
-        title={"Home Page"}
-        description={data.site.siteMetadata.description}
-      />
+      <Seo title={"主页"} description={data.site.siteMetadata.description} />
+      <Carousel pic={post.frontmatter.postImage.childImageSharp.fluid} />
       <Hero
         title={post.frontmatter.title}
         image={post.frontmatter.postImage.childImageSharp.fluid}

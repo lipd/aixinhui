@@ -23,6 +23,7 @@ module.exports = {
     twitter: "" // YOUR TWITTER PROFILE HERE
   },
   plugins: [
+    "gatsby-plugin-antd",
     "gatsby-plugin-sitemap",
     "gatsby-plugin-react-helmet",
     "gatsby-transformer-sharp",

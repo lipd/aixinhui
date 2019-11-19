@@ -128,3 +128,14 @@
   background-color: #2c2c2b;
   color: #7a71ae;
 }
+
+.ant-carousel .slick-slide {
+  line-height: 0;
+  max-height: 400px;
+  background: #364d79;
+  overflow: hidden;
+}
+
+.ant-carousel .slick-slide h3 {
+  color: #fff;
+}
