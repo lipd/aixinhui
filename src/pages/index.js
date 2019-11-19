@@ -32,7 +32,7 @@ export default ({ data }) => {
         ))}
       </div>
       <About />
-      {/* <Bio /> */}
+      <Bio />
     </Layout>
   );
 };

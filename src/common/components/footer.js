@@ -76,16 +76,10 @@ export default () => (
             <span className="near-white sans-serif f5 tracked mb3 db">
               咨询与报名
             </span>
-            <Link
-              to="/blog"
-              className="near-white sans-serif f5 tracked pv1 db"
-            >
+            <Link to="/" className="near-white sans-serif f5 tracked pv1 db">
               微信公众号
             </Link>
-            <Link
-              to="/rss.xml"
-              className="near-white sans-serif f5 tracked pv1 db"
-            >
+            <Link to="/" className="near-white sans-serif f5 tracked pv1 db">
               联系方式
             </Link>
           </div>
@@ -93,12 +87,12 @@ export default () => (
             <span className="near-white sans-serif f5 tracked mb3 db">
               关于
             </span>
-            <Link
-              to="http://www.difat.com/"
+            <a
+              href="http://www.difat.com/"
               className="near-white sans-serif f5 tracked pv1 db"
             >
               丹尼奖
-            </Link>
+            </a>
             {/* <a
               href={data.site.siteMetadata.mailChimpUrl}
               className="near-white sans-serif f5 tracked pv1 db"

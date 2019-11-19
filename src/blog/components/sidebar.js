@@ -28,8 +28,7 @@ export default props => {
               style={{ position: "sticky", top: "4rem", marginTop: "100px" }}
             >
               <a
-                href={`https://pinterest.com/pin/create/button/?url=${base +
-                  location}&description=${desc}&media=${base + img}`}
+                href="/"
                 className="w-100 h3 flex items-center justify-center b near-white"
               >
                 <AiFillWechat />
