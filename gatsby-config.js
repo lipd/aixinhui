@@ -3,10 +3,8 @@ module.exports = {
     navbarLinks: [
       { to: "/aixinghui", name: "机构介绍" },
       { to: "/dieyin", name: "“蝶音” @ 艺术科技指导" },
-      { to: "/drama", name: "音乐剧师资培训" },
-      { to: "/summer-camp", name: "招生与夏令营" },
-      { to: "/serve", name: " 资源与服务" },
-      { to: "/performance", name: " 演出与活动" }
+      { to: "/istar", name: "iStar 音乐剧" },
+      { to: "/aaea", name: "AAEA 认证" }
     ],
     title: "爱星汇",
     description: "Tyra is a fast, feminine, and chic Gatsby.js theme.",

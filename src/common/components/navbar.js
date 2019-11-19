@@ -42,7 +42,7 @@ const SliderMenu = props => {
         to="/"
         style={{ color: "white" }}
         className={
-          "display ttu tracked dark-gray f3 no-underline menu__item pv5" +
+          "display tracked dark-gray f3 no-underline menu__item pv5" +
           extraClasses
         }
       >
@@ -52,8 +52,7 @@ const SliderMenu = props => {
         <MultiLink
           to={navLink.to}
           className={
-            "sans-serif ttu mid-gray f5 no-underline menu__item pv3" +
-            extraClasses
+            "sans-serif mid-gray f5 no-underline menu__item pv3" + extraClasses
           }
         >
           {navLink.name}
@@ -133,7 +132,7 @@ export default class Navbar extends React.Component {
                 {data.site.siteMetadata.navbarLinks.map(navLink => (
                   <MultiLink
                     to={navLink.to}
-                    className="sans-serif ttu mid-gray f5 no-underline dn dib-l"
+                    className="sans-serif mid-gray f5 no-underline dn dib-l"
                   >
                     {navLink.name}
                   </MultiLink>
