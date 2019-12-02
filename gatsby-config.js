@@ -4,7 +4,8 @@ module.exports = {
       { to: "/aixinghui", name: "机构介绍" },
       { to: "/dieyin", name: "“蝶音” @ 艺术科技指导" },
       { to: "/istar", name: "iStar 音乐剧" },
-      { to: "/aaea", name: "AAEA 认证" }
+      { to: "/aaea", name: "AAEA 认证" },
+      { to: "/contact", name: "联系我们" }
     ],
     title: "爱星汇",
     description: "Tyra is a fast, feminine, and chic Gatsby.js theme.",
